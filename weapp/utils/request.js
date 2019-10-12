@@ -4,12 +4,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = request;
-
-var path = require('../vendor.js')(5);
-
-var baseURL = require('index.js');
-
-console.log(baseURL, "env");
+// const path = require('path');
+// const baseURL = require(path.resolve(__dirname, '../../config/dev'));
+// console.log(baseURL, "env");
+var baseURL = false ? 'http://www.baidu.com' : 'http://www.baidu.com';
 
 function request(url) {
   var method = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "GET";
@@ -19,7 +17,7 @@ function request(url) {
       title: "拼命加载中..."
     });
     wx.request({
-      url: 'https://www.baidu.com' + url,
+      url: baseURL + url,
       method: method,
       data: data,
       header: {

@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add commitlint-config-yl --save-dev
 
 PATH: 
-  C:\Users\Administrator\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jre1.8.0_221\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;F:\Program Files\nodejs;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;C:\Python27;C:\Users\chromedriver.exe;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jre1.8.0_221\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;C:\Python27;C:\Users\chromedriver.exe;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.19.1
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'F:\work\wepy\shop\node_modules\parse-glob\node_modules\is-extglob'
+  Error: EPERM: operation not permitted, unlink 'F:\work\wepy\shop\node_modules\tough-cookie\node_modules\punycode'
 
 npm manifest: 
   {
@@ -48,7 +48,7 @@ npm manifest:
       "@wepy/compiler-babel": "^2.0.1",
       "@wepy/compiler-sass": "^2.0.1",
       "babel-eslint": "^7.2.1",
-      "babel-plugin-global-define": "^1.0.3",
+      "babel-plugin-transform-node-env-inline": "^0.4.3",
       "cross-env": "^5.1.3",
       "eslint": "^3.18.0",
       "eslint-friendly-formatter": "^2.0.7",

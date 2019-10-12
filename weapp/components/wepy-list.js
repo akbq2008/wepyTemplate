@@ -38,21 +38,21 @@ _core["default"].component({
     }
   },
   onLoad: function onLoad() {}
-}, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+}, {info: {"components":{},"on":{}}, handlers: {'8-0': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.add($event)
       })();
     
-  }},'14-1': {"tap": function proxy () {
+  }},'8-1': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {
         _vm.tap($event)
       })();
     
-  }},'14-2': {"tap": function proxy (index) {
+  }},'8-2': {"tap": function proxy (index) {
     
     var _vm=this;
       return (function () {
