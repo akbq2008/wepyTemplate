@@ -1,0 +1,5 @@
+
+<view class="page-a">
+    <view data-wpy-evt="4-0" bindtap="_proxy">{{ text }}</view>
+    <wepy-list bind_init="_initComponent"></wepy-list>
+</view>
