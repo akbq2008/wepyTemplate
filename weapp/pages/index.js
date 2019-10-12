@@ -30,4 +30,53 @@ _core["default"].page({
         _vm.handleClick($event)
       })();
     
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{"wepy-list":{"path":"..\\components\\wepy-list"}},"on":{}}, handlers: {'4-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.handleClick($event)
+      })();
+    
   }}}, models: {} });
